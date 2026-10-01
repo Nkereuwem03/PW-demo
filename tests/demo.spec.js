@@ -23,7 +23,7 @@ test("Positive Login Test", async ({ page }) => {
     await expect(page.locator('a.wp-block-button__link')).toBeVisible()
 })
 
-test.only("Negative Login Test", async ({ page }) => {
+test("Negative Login Test", async ({ page }) => {
     // Step1: Navigate to the login page
     await page.goto('https://practicetestautomation.com/practice-test-login/')
 
